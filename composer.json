@@ -1,0 +1,15 @@
+{
+    "name": "vdlp/oc-securitytxt-plugin",
+    "type": "october-plugin",
+    "description": "Define security policies for your October CMS website.",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Van der Let & Partners",
+            "email": "octobercms@vdlp.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    }
+}

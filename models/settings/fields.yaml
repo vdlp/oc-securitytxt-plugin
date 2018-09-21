@@ -1,0 +1,48 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    contact:
+        label: Contact
+        placeholder: security@example.com
+        required: true
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.2\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
+    encryption:
+        label: Encryption
+        placeholder: https://example.com/pgp-key.txt
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.3\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
+    acknowledgements:
+        label: Acknowledgements
+        placeholder: https://example.com/acknowledgements.html
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.1\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
+    permission:
+        label: Permission
+        placeholder: none
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.5\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
+    policy:
+        label: Policy
+        placeholder: https://example.com/security-policy.html
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.6\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
+    signature:
+        label: Signature
+        placeholder: https://example.com/.well-known/security.txt.sig
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.7\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
+    hiring:
+        label: Hiring
+        placeholder: https://example.com/jobs.html
+        comment: "<a href=\"https://tools.ietf.org/html/draft-foudil-securitytxt-04#section-3.4.4\" target=\"_blank\">Description</a>"
+        commentHtml: true
+        span: left
