@@ -24,4 +24,8 @@ PHP ^7.0
 
 ## Installation
 
-`composer require vdlp/securitytxt`
+`composer require vdlp/oc-securitytxt-plugin`
+
+## Questions? Need help?
+
+If you have any question about how to use this plugin, please don't hesitate to contact us at octobercms@vdlp.nl. We're happy to help you. You can also visit the support forum and drop your questions/issues there.
