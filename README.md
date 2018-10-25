@@ -24,7 +24,7 @@ PHP ^7.0
 
 ## Installation
 
-`composer require vdlp/securitytxt`
+`composer require vdlp/oc-securitytxt-plugin`
 
 ## Questions? Need help?
 
