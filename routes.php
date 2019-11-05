@@ -4,13 +4,14 @@ declare(strict_types=1);
 
 use Illuminate\Http;
 use Illuminate\Routing;
+use System\Behaviors\SettingsModel;
 use Vdlp\SecurityTxt\Models;
 
 /** @var Routing\Router $router */
 $router = resolve(Routing\Router::class);
 
-$router->get('/.well-known/security.txt', function () {
-    /** @var \System\Behaviors\SettingsModel $settings */
+$router->get('/.well-known/security.txt', static function () {
+    /** @var SettingsModel $settings */
     $settings = Models\Settings::instance();
 
     $contents = sprintf(
