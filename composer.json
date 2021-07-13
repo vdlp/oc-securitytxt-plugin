@@ -1,7 +1,7 @@
 {
     "name": "vdlp/oc-securitytxt-plugin",
     "type": "october-plugin",
-    "description": "Define security policies for your October CMS website",
+    "description": "Define security policies for your website.",
     "license": "GPL-2.0",
     "authors": [
         {
@@ -10,12 +10,13 @@
         }
     ],
     "require": {
-        "php": "^7.2||^8.0",
+        "php": "^7.4 || ^8.0",
         "composer/installers": "^1.0"
     },
     "archive": {
         "exclude": [
             ".gitignore",
+            ".github",
             ".idea/"
         ]
     }

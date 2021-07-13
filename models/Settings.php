@@ -6,12 +6,7 @@ namespace Vdlp\SecurityTxt\Models;
 
 use October\Rain\Database\Model;
 
-/**
- * Class Settings
- *
- * @package Vdlp\SecurityTxt\Models
- */
-class Settings extends Model
+final class Settings extends Model
 {
     /**
      * @var array
@@ -20,13 +15,6 @@ class Settings extends Model
         'System.Behaviors.SettingsModel'
     ];
 
-    /**
-     * @var string
-     */
-    public $settingsCode = 'vdlp_security_settings';
-
-    /**
-     * @var string
-     */
-    public $settingsFields = 'fields.yaml';
+    public string $settingsCode = 'vdlp_security_settings';
+    public string $settingsFields = 'fields.yaml';
 }
