@@ -1,7 +1,5 @@
 <?php
 
-/** @noinspection PhpMissingParentCallCommonInspection */
-
 declare(strict_types=1);
 
 namespace Vdlp\SecurityTxt;
@@ -9,16 +7,8 @@ namespace Vdlp\SecurityTxt;
 use System\Classes\PluginBase;
 use Vdlp\SecurityTxt\Models;
 
-/**
- * Class Plugin
- *
- * @package Vdlp\SecurityTxt
- */
-class Plugin extends PluginBase
+final class Plugin extends PluginBase
 {
-    /**
-     * {@inheritDoc}
-     */
     public function pluginDetails(): array
     {
         return [
@@ -29,9 +19,6 @@ class Plugin extends PluginBase
         ];
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public function registerPermissions(): array
     {
         return [
@@ -42,9 +29,6 @@ class Plugin extends PluginBase
         ];
     }
 
-    /**
-     * {@inheritDoc}
-     */
     public function registerSettings(): array
     {
         return [
@@ -57,7 +41,7 @@ class Plugin extends PluginBase
                 'permissions' => [
                     'vdlp.securitytxt.access_settings',
                 ],
-            ]
+            ],
         ];
     }
 }

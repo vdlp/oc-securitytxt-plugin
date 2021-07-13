@@ -20,7 +20,7 @@ Go to the Settings section and provide the required information.
 
 ## Requirements
 
-PHP ^7.0
+PHP 7.4 or higher
 
 ## Installation
 

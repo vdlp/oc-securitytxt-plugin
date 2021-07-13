@@ -2,3 +2,4 @@
 1.0.1: Update plugin documentation
 1.0.2: Minor code improvements
 1.1.0: Update plugin dependencies
+2.0.0: Add support for PHP 7.4 or higher
