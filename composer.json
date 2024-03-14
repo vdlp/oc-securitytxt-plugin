@@ -1,8 +1,8 @@
 {
     "name": "vdlp/oc-securitytxt-plugin",
-    "type": "october-plugin",
     "description": "Define security policies for your website.",
     "license": "GPL-2.0",
+    "type": "october-plugin",
     "authors": [
         {
             "name": "Van der Let & Partners",
@@ -10,14 +10,16 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
-        "composer/installers": "^1.0"
+        "php": "^8.0.2",
+        "composer/installers": "^1.0 || ^2.0"
     },
-    "archive": {
-        "exclude": [
-            ".gitignore",
-            ".github",
-            ".idea/"
-        ]
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.42"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "ergebnis/composer-normalize": true
+        }
     }
 }
